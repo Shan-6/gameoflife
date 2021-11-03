@@ -18,7 +18,6 @@ private:
    
     void draw();
     void compute();
-    void clear_board();
 public:
     void run();
     Gameoflife(int size);
