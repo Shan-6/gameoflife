@@ -2,15 +2,15 @@
 
 #include "gameoflife.h"
 
-using namespace std;    
+// ok
+using namespace std;
 
-int main(){
+int main()
+{
 
-        Gameoflife *game = new Gameoflife(60);//grid size
+    Gameoflife *game = new Gameoflife(60); // grid size
 
-        game->run();
+    game->run();
 
     return 0;
-
 }
-
